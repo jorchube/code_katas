@@ -10,6 +10,7 @@ namespace ShiritoriCSharp
         List<string> used_words;
         string last_answer;
         bool is_first_challenge;
+
         public Shiritori(ShiritoriDictionaryInterface dictionary)
         {
             this.dictionary = dictionary;
