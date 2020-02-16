@@ -67,6 +67,7 @@ namespace RomanNumeralsTests
             Assert.AreEqual(1100, Romans.ToDecimal("MC"));
             Assert.AreEqual(900, Romans.ToDecimal("CM"));
             Assert.AreEqual(901, Romans.ToDecimal("CMI"));
+            Assert.AreEqual(1949, Romans.ToDecimal("MCMXLIX"));
         }
     }
 }

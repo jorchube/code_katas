@@ -37,7 +37,7 @@ namespace RomanNumeralsCSharp
                 return conversion_table.ToDecimal(value.Substring(0, 2)) + RomanToDecimal(value.Substring(2));
             }
 
-            return conversion_table.ToDecimal(value.Substring(0, value.Length-1)) + RomanToDecimal(value.Substring(1));
+            return conversion_table.ToDecimal(value.Substring(0, 1)) + RomanToDecimal(value.Substring(1));
         }
 
         private static string DecimalToRoman(int value)
